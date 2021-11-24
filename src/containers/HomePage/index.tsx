@@ -1,9 +1,16 @@
 import React from 'react';
+import './style.css'
+import ShopQuality from "../../components/ShopQuality";
+import BestSeller from "../BestSeller";
+import Partners from "../../components/Partners";
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>Home Page</h1>
+        <div className={'homepage-container'}>
+            <div className={'cover-image'}/>
+            <ShopQuality/>
+            <BestSeller/>
+            <Partners/>
         </div>
     );
 };
